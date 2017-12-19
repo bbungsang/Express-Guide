@@ -1,9 +1,7 @@
 var express = require('express')
 var app = express();
 
-app.listen(3000, function () {
-  console.log("Express server has started on port 3000")
-})
+app.listen(3000)
 
 /* 라우트 메소드 */
 // HTTP 메소드 중 하나로부터 파생되며, express 클래스의 인스턴스에 연결된다.
